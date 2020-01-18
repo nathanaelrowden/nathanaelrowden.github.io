@@ -95,18 +95,18 @@ p {
 nav {
     background-color: #84828F;
     line-height: 3em;
-    text-align: left;
+    text-align: center;
     font-size: 1.2em
 }
 
 nav>ul {
     list-style-type: none;
-    display: flex
+    display: inline-flex;
 }
 
 nav a {
     padding: 1em;
-    min-width: 70px
+    min-width: 50px
 }
 
 nav a:link,
@@ -115,6 +115,7 @@ nav a:visited {
 }
 
 nav a:hover {
-    color: #E7C24F;
-    background-color: #84828F;
+    color: black;
+    background-color: #5F5199;
+
 }
