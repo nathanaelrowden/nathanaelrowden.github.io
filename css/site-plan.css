@@ -48,7 +48,10 @@ header>h1 {
 p {
     font-family: var(--paragraph-font);
     color: #5F5199;
-    padding: 1em
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    min-width: 350px;
 }
 
 .colors {
