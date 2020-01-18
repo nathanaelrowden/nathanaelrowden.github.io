@@ -21,7 +21,10 @@ body {
 }
 
 img {
-    max-width: 100%
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 h1,
@@ -31,7 +34,8 @@ h4,
 h5,
 h6 {
     font-family: var(--heading-font);
-    color: #84828F;
+    color: #5F5199;
+    text-align: center;
 }
 
 header {
@@ -42,7 +46,7 @@ header {
 }
 
 header>h1 {
-    color: #84828F;
+    color: black;
 }
 
 p {
@@ -50,6 +54,10 @@ p {
     color: #5F5199;
     padding: 1em;
     text-align: center;
+}
+
+.colored {
+    color: red;
 }
 
 .colors {
@@ -87,7 +95,7 @@ p {
 nav {
     background-color: #84828F;
     line-height: 3em;
-    text-align: center;
+    text-align: left;
     font-size: 1.2em
 }
 
