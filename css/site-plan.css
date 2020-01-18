@@ -47,6 +47,7 @@ header {
 
 header>h1 {
     color: black;
+    text-decoration: underline;
 }
 
 p {
@@ -115,7 +116,10 @@ nav a:visited {
 }
 
 nav a:hover {
-    color: black;
-    background-color: #5F5199;
+    color: #5F5199;
+    background-color: #E7C24F;
 
+}
+footer {
+    text-align: center;
 }
