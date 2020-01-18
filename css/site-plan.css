@@ -44,6 +44,11 @@ header {
     color: var(--accent2-color);
     background-color: #5F5199;
 }
+div {
+    color:black;
+    font-size: 20px;
+    font-family: var(--heading-font)
+}
 
 header>h1 {
     color: black;
