@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css?family=Merienda&display=swap');
+:root {
+    --primary-color: #84828F;
+    --secondary-color: #5F5199;
+    --accent1-color: #E7C24F;
+    --accent2-color: #F7F4F3;
+    --heading-font: "Merienda";
+    --paragraph-font: "Lato";
+}
+
+html {
+    background-color: var(--primary-color)
+}
