@@ -10,10 +10,55 @@
 }
 
 html {
-    background-color: var(--secondary-color)
+    background-color: var(--primary-color);
 }
 body{
+    background-color: var(--secondary-color);
     max-width: 960px;
     text-align: center;
     margin: 0 auto;
+}
+p{
+    font-style: var(--paragraph-font);
+    color: var(--accent2-color);
+    font-size: 25px;
+    align-content: center;
+
+}
+h1,h2{
+    font-style: var(--heading-font);
+    color: var(--accent2-color);
+    text-decoration: underline;
+    font-size: 40px;
+}
+footer{
+    text-align: left;
+    color: white; 
+    font-size: 20px;
+}
+nav {
+    background-color: #84828F;
+    line-height: 3em;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+nav>ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+nav a {
+    padding: 1em;
+}
+
+nav a:link,
+nav a:visited {
+    color: var(--secondary-color);
+}
+
+nav a:hover {
+    color: var(--accent2-color);
+    background-color: #E7C24F;
+
 }
