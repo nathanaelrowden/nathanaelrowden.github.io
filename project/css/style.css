@@ -18,16 +18,19 @@ body {
     background-color: var(--secondary-color);
     max-width: 960px;
     text-align: center;
-    padding:0;
-    margin:0;
+    padding:0 center;
+    margin:0 auto;
     font-size: 16px;
 }
 
 p {
     font-style: var(--paragraph-font);
     color: var(--accent2-color);
-    font-size: 1rem;
+    font-size: 1.25rem;
     align-content: center;
+    padding: 1.75rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
 
 }
 
@@ -42,19 +45,21 @@ h2 {
 footer {
     text-align: left;
     color: var(--accent2-color);
-    font-size: .5rem;
+    font-size: .75rem;
 }
 
 nav {
     background-color: var(--primary-color);
-    line-height: 3rem;
+    line-height: 1rem;
     font-size: 1.2rem;
-    text-align: center;
+    text-align: auto;
+    padding-right: 2.5rem;
 }
 
 nav>ul {
     list-style-type: none;
     display: inline-flex;
+    text-align: auto;
 }
 
 nav a {
