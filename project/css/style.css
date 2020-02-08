@@ -28,6 +28,10 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+.heading{
+    padding-left: 2rem;
 }
 
 p {
