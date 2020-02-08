@@ -69,11 +69,11 @@ nav a {
 
 nav a:link,
 nav a:visited {
-    color: var(--secondary-color);
+    color: var(--accent2-color);
 }
 
 nav a:hover {
-    color: var(--accent2-color);
+    color: var(--primary-color);
     background-color: var(--accent1-color);
 
 }
