@@ -21,7 +21,7 @@ body {
     padding:0 center;
     margin:0 auto;
     font-size: 16px;
-    font-family:Merienda,Lato,sans-serif;
+    font-family:"Merienda","Lato",sans-serif;
 }
 header{
     background-color: var(--secondary-color);
