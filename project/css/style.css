@@ -33,6 +33,9 @@ header{
 .heading{
     padding-left: 2rem;
 }
+.motto{
+    color: var(--accent2-color);
+}
 
 p {
     font-style: var(--paragraph-font);
