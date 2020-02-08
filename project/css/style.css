@@ -21,6 +21,7 @@ body {
     padding:0 center;
     margin:0 auto;
     font-size: 16px;
+    font-family: ;
 }
 header{
     background-color: var(--secondary-color);
