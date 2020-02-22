@@ -43,6 +43,7 @@ header {
     height: auto;
     grid-column: 1/-1;
     grid-row: 1;
+    border: 5px solid var(--secondary-color);
     
 
 }
