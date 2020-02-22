@@ -96,7 +96,7 @@ h2 {
 
 footer {
     color: var(--accent1-color);
-    font-size: .75rem;
+    font-size: 1rem;
     padding: 1rem;
     background-color: var(--secondary-color);
 }
@@ -133,12 +133,12 @@ nav a:hover {
 .footer-1{
     display: grid;
     grid-template-columns: fr1 fr1 fr1 fr1 fr1;
+    grid-gap: 20px;
 }
 .social{
     grid-column: 5/6;
     grid-row: 1/2;
-    position: relative;
-    left: 175px;
+    align-items: right;
 }
 .footer-copyright-1{
     grid-column: 1/3;
