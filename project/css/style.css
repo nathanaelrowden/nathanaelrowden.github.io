@@ -220,4 +220,9 @@ nav a:hover {
       display: block;
     }
   }
+  @media screen and (max-width: 550px) {
+    html {
+      display: block;
+    }
+  }
 
