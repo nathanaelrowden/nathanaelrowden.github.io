@@ -209,20 +209,4 @@ nav a:hover {
     }
   }
 
-  @media screen and (max-width: 550px) {
-    .banner-box {
-      display: block;
-    }
-  }
-
-  @media screen and (max-width: 550px) {
-    .footer-1 {
-      display: block;
-    }
-  }
-  @media screen and (max-width: 550px) {
-    html {
-      display: block;
-    }
-  }
 
