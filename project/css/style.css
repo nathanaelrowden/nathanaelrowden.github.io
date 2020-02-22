@@ -12,6 +12,7 @@
 
 html {
     background-color: var(--primary-color);
+    
 }
 
 body {
@@ -43,7 +44,7 @@ header {
     height: auto;
     grid-column: 1/-1;
     grid-row: 1;
-    border: 5px solid var(--secondary-color);
+    border:3px solid var(--secondary-color);
     
 
 }
@@ -69,7 +70,7 @@ header {
 
 .home-grid {
     display: grid;
-    grid-template-columns: fr1 fr1 fr1 fr1 fr1;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
 }
 
@@ -120,9 +121,9 @@ header {
 }
 
 .home-right-img, .home-left-img{
-    border: 5px solid var(--secondary-color);
+    border: 3px solid var(--secondary-color);
     box-shadow: 5px 5px 5px var(--accent1-color);
-    padding: 0px;
+    
 }
 
 .heading {
@@ -162,9 +163,9 @@ nav {
     text-align: center;
     line-height: 1rem;
     font-size: 1.2rem;
-    padding-right: 2.5rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
 }
 
 nav>ul {
@@ -189,7 +190,7 @@ nav a:hover {
 
 .footer-1 {
     display: grid;
-    grid-template-columns: fr1 fr1 fr1 fr1 fr1;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
 }
 
