@@ -120,7 +120,7 @@ header {
     border: 1px solid var(--secondary-color);
     box-shadow: 5px 5px 5px var(--accent1-color);
     max-width: 100%;
-    max-height: auto;
+    height: auto;
 
 }
 
@@ -246,7 +246,7 @@ footer {
     border: 1px solid var(--secondary-color);
     box-shadow: 5px 5px 5px var(--accent1-color);
     max-width: 100%;
-    max-height: auto;
+    height: auto;
 }
 
 .trips-headline-2 {
@@ -355,7 +355,7 @@ footer {
     border: 1px solid var(--secondary-color);
     box-shadow: 5px 5px 5px var(--accent1-color);
     max-width: 100%;
-    max-height: auto;
+    height: auto;
 }
 
 .faqs-paragraph-1,
