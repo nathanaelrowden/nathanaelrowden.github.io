@@ -215,7 +215,9 @@ footer {
     max-width: 940px;
     margin: 0 auto;
 }
-
+.trips-title{
+    text-align: center;
+}
 .trips-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -288,7 +290,9 @@ footer {
 .trips-headline-3 {
     font-size: 22px;
 }
-
+.faqs-title{
+    text-align: center;
+}
 .faqs-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
